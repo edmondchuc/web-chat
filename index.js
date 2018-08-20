@@ -10,11 +10,11 @@ app.use(express.static(__dirname + '/web-chat/dist/web-chat'));
 const port = process.env.PORT || 3000;
 
 io.on('connection', (socket) => {
-    console.log('user connected');
+    console.log('Visitor connected');
 
     socket.on('new-message', (message) => {
         console.log(message);
-        io.emit(message);
+        io.emit('message', { type: 'message', text:message });
     });
 });
 
