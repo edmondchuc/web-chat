@@ -5,7 +5,7 @@
 * `npm install angular`
 * `npm install socket.io`
 
-## Angular Components
+## Angular Special Components
 * `ng generate service socket`
 
 ## Socket.IO Bug
