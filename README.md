@@ -1,5 +1,8 @@
 # Angular Chat App
 
+## Demo
+See the demo at http://www.edmondchuc.com
+
 ## Dependencies
 * `npm install express`
 * `npm install angular`
